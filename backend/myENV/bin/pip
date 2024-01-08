@@ -1,4 +1,6 @@
-#!/home/engenheiro/Desktop/Projeto/backend/myENV/bin/python3.10
+#!/bin/sh
+'''exec' "/mnt/31f07ee3-e7ad-49de-a4d4-9295fa9b72ec/Arquivos/Outros/Documents/Projetos pessoais/Programação/Projetos/Não_Meus/Projeto/backend/myENV/bin/python" "$0" "$@"
+' '''
 # -*- coding: utf-8 -*-
 import re
 import sys
