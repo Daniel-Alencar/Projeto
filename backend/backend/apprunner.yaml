@@ -9,6 +9,6 @@ run:
   command: sh startup.sh
   network:
     port: 8000
-  # secrets:
-  #   - name: Postgres-Secret
-  #     value-from: "arn:aws:secretsmanager:us-east-2:597812435897:secret:Postgres-Secret-xgFHpy"
+  secrets:
+    - name: Postgres-Secret
+      value-from: "arn:aws:secretsmanager:us-east-2:597812435897:secret:Postgres-Secret-xgFHpy"
